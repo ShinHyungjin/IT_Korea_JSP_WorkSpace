@@ -71,7 +71,7 @@ span.psw {
 	function login() {
 		//post방식으로 웹서버에 요청
 		form1.method="get";
-		form1.action="/member/login.jsp";
+		form1.action="login.jsp";
 		form1.submit();
 	}
 </script>
